@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Implements a Stack-Functionality
+ * 
  * @author Manuel Eder
  *
  */
@@ -15,6 +16,7 @@ public class StringStack implements Stack
 	
 	/**
 	 * if stack is empty
+	 * 
 	 * @return true if empty stack
 	 */
 	public StringStack (int max)
@@ -46,6 +48,7 @@ public class StringStack implements Stack
 
 	/**
 	 * gets the item of the Stack
+	 * 
 	 * @return the item, data type string
 	 */
 	public String pop()
